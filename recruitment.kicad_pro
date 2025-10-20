@@ -658,6 +658,10 @@
     [
       "bdc7face-9f7c-4701-80bb-4cc144448db1",
       "Root"
+    ],
+    [
+      "bc78e43e-7c72-4a26-8058-1235020e2308",
+      "Buck Regulator"
     ]
   ],
   "text_variables": {}

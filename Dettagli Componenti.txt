@@ -11,10 +11,16 @@ B(1-2): Terminali Reset - B1 GND - A2 ingresso con Impulso-
 ___________________________________________
 
 Buck-Regulator (XL1509-12) da 12 volt in Vout partendo da Vin. Mette l'eccesso di voltaggio in un induttore e lo uso quando è sotto-alimentato. Vin: Ingresso tensione - Out (Vout) tensione in output- GND: ground - EN: Enable (Floating o bassa lo attivano, Alta lo disattiva) - FB: Feedback, 
+Aggiungere Condensatore prima di IN  e aggiungere induttore come nella scheda
+di informazioni del componente. (68 uh inductor)
+
 ___________________________________________
 Monitor Supply:
 
 //
 C1 per appiattire l'impulso iniziale dell'attivazione del Monitor Supply
+//
+C2 come da disegno per, protezione i guess?
+
 
 
