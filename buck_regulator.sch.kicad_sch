@@ -2,7 +2,7 @@
 	(version 20250114)
 	(generator "eeschema")
 	(generator_version "9.0")
-	(uuid "152ab89c-a47b-401c-995e-d00820b72cb0")
+	(uuid "e85b1348-b12f-45a9-89b8-83d5b4f1c0f6")
 	(paper "A4")
 	(lib_symbols
 		(symbol "Device:C"
@@ -555,6 +555,12 @@
 		(uuid "77c9825a-7b20-421d-b025-dd5013610612")
 	)
 	(junction
+		(at 118.11 107.95)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7d318052-8c00-4d6e-856d-8c703aceb0bd")
+	)
+	(junction
 		(at 111.76 78.74)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -575,6 +581,16 @@
 			(type default)
 		)
 		(uuid "023b6cf5-7c72-4d1b-a225-a8bdfdc136c2")
+	)
+	(wire
+		(pts
+			(xy 118.11 107.95) (xy 128.27 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2c97bf21-1d9d-47b7-a436-6de50326ae5e")
 	)
 	(wire
 		(pts
@@ -618,6 +634,16 @@
 	)
 	(wire
 		(pts
+			(xy 118.11 83.82) (xy 118.11 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "619a1059-0801-4a4e-bac5-7560f19c00b6")
+	)
+	(wire
+		(pts
 			(xy 160.02 66.04) (xy 160.02 78.74)
 		)
 		(stroke
@@ -638,7 +664,7 @@
 	)
 	(wire
 		(pts
-			(xy 111.76 107.95) (xy 128.27 107.95)
+			(xy 111.76 107.95) (xy 118.11 107.95)
 		)
 		(stroke
 			(width 0)
@@ -788,7 +814,7 @@
 		)
 		(uuid "8351a49e-f36d-4711-b358-a9760368e73f")
 	)
-	(hierarchical_label "GND"
+	(hierarchical_label "GND_IN"
 		(shape input)
 		(at 172.72 107.95 0)
 		(effects

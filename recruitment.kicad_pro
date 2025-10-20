@@ -662,6 +662,10 @@
     [
       "bc78e43e-7c72-4a26-8058-1235020e2308",
       "Buck Regulator"
+    ],
+    [
+      "8c3f6a2d-4423-48df-8f69-0feefaa5f747",
+      "Voltage and Current measuring"
     ]
   ],
   "text_variables": {}

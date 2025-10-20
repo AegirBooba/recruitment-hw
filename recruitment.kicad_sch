@@ -513,6 +513,107 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "power:PWR_FLAG"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#FLG"
+				(at 0 1.905 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "PWR_FLAG"
+				(at 0 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Special symbol for telling ERC where power comes from"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "flag power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "PWR_FLAG_0_0"
+				(pin power_out line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "PWR_FLAG_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 1.27) (xy -1.016 1.905) (xy 0 2.54) (xy 1.016 1.905) (xy 0 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "power:VCC"
 			(power)
 			(pin_numbers
@@ -640,38 +741,14 @@
 		)
 	)
 	(junction
-		(at 67.31 124.46)
+		(at 83.82 127)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "26960708-d819-44ab-ad72-c7ffe912faf5")
-	)
-	(junction
-		(at 73.66 124.46)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "38ccb390-28c9-4a19-a6a8-b402a81a9c0f")
-	)
-	(junction
-		(at 83.82 124.46)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "64ef7315-51a0-4f0a-8756-6a6b29f7f2cc")
-	)
-	(junction
-		(at 115.57 124.46)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "893d12a5-365d-4207-93ad-ff4fc1db6c9c")
-	)
-	(junction
-		(at 160.02 124.46)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "fdbe82b5-ab2e-4e36-8ba9-9f4dfcec7e84")
+		(uuid "53f0dfb4-d913-4c7a-b86e-1657ff909247")
 	)
 	(wire
 		(pts
-			(xy 67.31 124.46) (xy 60.96 124.46)
+			(xy 50.8 127) (xy 83.82 127)
 		)
 		(stroke
 			(width 0)
@@ -681,87 +758,37 @@
 	)
 	(wire
 		(pts
-			(xy 67.31 109.22) (xy 67.31 124.46)
+			(xy 50.8 63.5) (xy 127 63.5)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "1462f29a-d472-4ae0-920d-5dedf6eaa476")
+		(uuid "2c774f30-7d5c-4826-a126-a49c9d5854b5")
 	)
 	(wire
 		(pts
-			(xy 115.57 124.46) (xy 160.02 124.46)
+			(xy 83.82 127) (xy 215.9 127)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "59e87d2f-2baa-42fb-b54e-a3a780dc7998")
+		(uuid "491ff7ef-9adf-4c72-86c8-17664ab6743b")
 	)
 	(wire
 		(pts
-			(xy 83.82 102.87) (xy 83.82 124.46)
+			(xy 83.82 99.06) (xy 83.82 127)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "6e0b215b-e477-4131-b22c-63e4b52c09d3")
+		(uuid "4c6e8cfc-4b32-4f77-b9fe-d6652e5d6617")
 	)
 	(wire
 		(pts
-			(xy 160.02 87.63) (xy 160.02 124.46)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6f154568-0abf-442f-b4fb-ba6299097baa")
-	)
-	(wire
-		(pts
-			(xy 191.77 124.46) (xy 160.02 124.46)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "72aa8b46-b8ef-4868-afb3-7e1ce24c9ed3")
-	)
-	(wire
-		(pts
-			(xy 191.77 92.71) (xy 191.77 124.46)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "815fa319-898d-4778-b689-0b1bf7575df9")
-	)
-	(wire
-		(pts
-			(xy 176.53 87.63) (xy 160.02 87.63)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "96d495ed-d632-465b-8603-fd00612fe623")
-	)
-	(wire
-		(pts
-			(xy 83.82 124.46) (xy 115.57 124.46)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d64221da-7f1a-4d2f-9299-07038f6491ff")
-	)
-	(wire
-		(pts
-			(xy 60.96 92.71) (xy 67.31 92.71)
+			(xy 50.8 88.9) (xy 69.85 88.9)
 		)
 		(stroke
 			(width 0)
@@ -771,43 +798,23 @@
 	)
 	(wire
 		(pts
-			(xy 115.57 109.22) (xy 115.57 124.46)
+			(xy 142.24 66.04) (xy 163.83 66.04)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "e1651bb1-eade-4e70-ac45-9a69072e7707")
+		(uuid "d86c55b6-8adf-4f17-bbde-7642dfdd7b54")
 	)
 	(wire
 		(pts
-			(xy 73.66 97.79) (xy 73.66 124.46)
+			(xy 189.23 66.04) (xy 215.9 66.04)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "ef4755c7-90bd-4525-a614-14db7c53fecf")
-	)
-	(wire
-		(pts
-			(xy 83.82 124.46) (xy 73.66 124.46)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fa7bb01a-cc03-4ef8-940d-4e2034cdd761")
-	)
-	(wire
-		(pts
-			(xy 73.66 124.46) (xy 67.31 124.46)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fe4c8d5d-174c-496f-85b6-3fc9743157cf")
+		(uuid "f2a00bb5-2ed2-4a40-b553-4c72eb2ac622")
 	)
 	(image
 		(at 440.69 104.14)
@@ -1481,9 +1488,53 @@
 			"EEiFTgAAAABJRU5ErkJggg=="
 		)
 	)
+	(global_label "LOAD"
+		(shape input)
+		(at 215.9 127 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "3c8f4e89-8573-455a-a942-922b12dc275f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 222.9482 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "LOAD"
+		(shape output)
+		(at 215.9 66.04 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "e5e539f8-924b-4070-b3c4-27d4a46dc7d6")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 222.9482 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(symbol
 		(lib_id "Relay:Relay_SPST_Latching_2coil")
-		(at 184.15 85.09 90)
+		(at 134.62 71.12 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1492,7 +1543,7 @@
 		(fields_autoplaced yes)
 		(uuid "008337f0-74c1-4400-ab00-cc3aa11f1f3d")
 		(property "Reference" "K1"
-			(at 184.15 69.85 90)
+			(at 134.62 55.88 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1500,7 +1551,7 @@
 			)
 		)
 		(property "Value" "Relay_SPST_Latching_2coil"
-			(at 184.15 72.39 90)
+			(at 134.62 58.42 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1508,7 +1559,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 185.42 51.435 0)
+			(at 135.89 37.465 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1517,7 +1568,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 184.15 85.09 0)
+			(at 134.62 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1527,7 +1578,7 @@
 			)
 		)
 		(property "Description" "Relay SPST, bistable, double-coil, EN50005"
-			(at 184.15 85.09 0)
+			(at 134.62 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1564,7 +1615,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 60.96 124.46 0)
+		(at 50.8 127 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1573,7 +1624,7 @@
 		(fields_autoplaced yes)
 		(uuid "71b111c8-0a21-4a7f-a7df-594f78c3e014")
 		(property "Reference" "#PWR01"
-			(at 60.96 130.81 0)
+			(at 50.8 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1582,7 +1633,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 60.96 129.54 0)
+			(at 50.8 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1590,7 +1641,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 60.96 124.46 0)
+			(at 50.8 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1599,7 +1650,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 60.96 124.46 0)
+			(at 50.8 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1608,7 +1659,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 60.96 124.46 0)
+			(at 50.8 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1629,8 +1680,74 @@
 		)
 	)
 	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 50.8 63.5 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9a3bef7d-d6c9-4bb7-b1dc-a38bc0b77399")
+		(property "Reference" "#FLG01"
+			(at 50.8 61.595 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 50.8 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 50.8 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 50.8 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 50.8 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2bdc3070-2275-45f6-b7d9-24721b9e3801")
+		)
+		(instances
+			(project ""
+				(path "/bdc7face-9f7c-4701-80bb-4cc144448db1"
+					(reference "#FLG01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:VCC")
-		(at 60.96 92.71 0)
+		(at 50.8 88.9 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1639,7 +1756,7 @@
 		(fields_autoplaced yes)
 		(uuid "a859565d-f532-4643-bce4-ae809c975996")
 		(property "Reference" "#PWR02"
-			(at 60.96 96.52 0)
+			(at 50.8 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1648,7 +1765,7 @@
 			)
 		)
 		(property "Value" "Monitor Supply"
-			(at 60.96 87.63 0)
+			(at 50.8 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1656,7 +1773,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 60.96 92.71 0)
+			(at 50.8 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1665,7 +1782,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 60.96 92.71 0)
+			(at 50.8 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1674,7 +1791,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 60.96 92.71 0)
+			(at 50.8 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1695,7 +1812,98 @@
 		)
 	)
 	(sheet
-		(at 76.2 76.2)
+		(at 163.83 62.23)
+		(size 25.4 12.7)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "8c3f6a2d-4423-48df-8f69-0feefaa5f747")
+		(property "Sheetname" "Voltage and Current measuring"
+			(at 163.83 56.642 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "veim.kicad_sch"
+			(at 163.83 57.912 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "3,3V" input
+			(at 163.83 71.12 180)
+			(uuid "54f4b4f8-ec72-4620-8666-17ebf3666a80")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "ANALOG_V" output
+			(at 189.23 71.12 0)
+			(uuid "f8696093-8348-48e3-b90a-c03c6ef2b02a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "GND" output
+			(at 176.53 74.93 270)
+			(uuid "da32f011-9f4f-40e6-a37f-6ec724e4dc30")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "I IN" input
+			(at 163.83 66.04 180)
+			(uuid "2d778135-7138-4074-8fe2-862ac84a9965")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "I OUT" output
+			(at 189.23 66.04 0)
+			(uuid "2ed831d2-0d2b-4562-8250-1a965a6ee5ea")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "recruitment"
+				(path "/bdc7face-9f7c-4701-80bb-4cc144448db1"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 69.85 86.36)
 		(size 25.4 12.7)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1711,7 +1919,7 @@
 		)
 		(uuid "bc78e43e-7c72-4a26-8058-1235020e2308")
 		(property "Sheetname" "Buck Regulator"
-			(at 76.2 75.4884 0)
+			(at 69.85 85.6484 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1720,12 +1928,52 @@
 			)
 		)
 		(property "Sheetfile" "buck_regulator.sch.kicad_sch"
-			(at 76.2 89.4846 0)
+			(at 69.85 99.6446 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(pin "12V" output
+			(at 95.25 88.9 0)
+			(uuid "123c96b8-540d-4621-af5f-44b171779589")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "Monitor Supply" input
+			(at 69.85 88.9 180)
+			(uuid "4eee4204-0546-4ab1-b620-de7aaec2f06d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "GND_IN" input
+			(at 95.25 96.52 0)
+			(uuid "24b9ab8e-57f7-43a5-a073-eec9f0844d98")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "GND" output
+			(at 83.82 99.06 270)
+			(uuid "105eaccf-24b9-4137-a0cd-a912739ce018")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(instances
