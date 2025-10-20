@@ -1,0 +1,20 @@
+Latching Relay SPST 2 Coil.
+
+SPST: Chiude o apre un singolo circuito. 
+Latching: Una volta ricevuto un impulso di corrente commuta e rimane in quello stato
+2 Coil: Ci sono 2 input positivi, R+ e S+: S+ chiude il circuito. R+ lo apre.
+
+A(1-2): Terminali Set - A1 ingresso con Impulso - A2 GND
+B(1-2): Terminali Reset - B1 GND - A2 ingresso con Impulso-
+1(3-4): Cavo (Power Supply)
+
+___________________________________________
+
+Buck-Regulator (XL1509-12) da 12 volt in Vout partendo da Vin. Mette l'eccesso di voltaggio in un induttore e lo uso quando è sotto-alimentato. Vin: Ingresso tensione - Out (Vout) tensione in output- GND: ground - EN: Enable (Floating o bassa lo attivano, Alta lo disattiva) - FB: Feedback, 
+___________________________________________
+Monitor Supply:
+
+//
+C1 per appiattire l'impulso iniziale dell'attivazione del Monitor Supply
+
+

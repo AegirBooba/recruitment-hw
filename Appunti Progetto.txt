@@ -1,0 +1,29 @@
+Overcurrent: Corrente eccessiva rispetto al sistema
+
+NO Programmable Logic: No componenti dal funzionamento indefinito (Solo hardware)
+
+Relè: (SPST) 
+Quando aperto impedisce il passaggio di corrente, (Fa da interruttore). Quando chiuso è in serie con il sensore di Hall e permette di chiudere il circuito facendo fluire la corrente. Se la corrente misurata è troppo alta va aperto e mantenuto tale fino ad un Power Cycle. 
+
+POWER CYCLE: Spegnimento e Riaccensione del sistema. Se non ricevo un alimentazione vuol dire che hanno spento il sistema-
+
+Hall Sensor - Current Sensor: (Range tra -3 e 25) --> ACS714LLCTR-30A-T (Da -30 a +30 copre con un margine di +5 e -27)
+Della stessa famiglia non esistono opzioni migliori.
+Misura la corrente passante per un determinato filo. L'output è una differenza di potenziale lineare con quota 2.5V
+
+
+Funzionamento: (Output Analogico??)
+Attivato il Power Cycle (Chiedere come) alimentare il relè per chiudere il circuito e lasciare fluire la corrente. Fare passare la corrente attraverso il Hall Sensor, che misura la corrente che sta fluendo. Usare la  corrente in uscita (OUTPUT) del Sensore per controllarne il valore (Converter). Se il valore supera la soglia (25? A) aprire il circuito (Togliendo? alimentazione al circuito) per evitare un sovraccarico del sistema. Fare si che una volta aperto, non sia possibile richiudere il circuito.
+
+///
+Latching Relay: Una volta attivato mantiene il suo stato anche senza corrente
+
+Crowbar probabilmente?
+
+
+///////////////////////////////
+Usare dopo il sensore di Hall un partitore per mettere in parallelo il Load e un ADC (Non Attack Damage Carry ffs) con cui ottenere un valore di tensione da moltiplicare con il valore equivalente della corrente, per ottenere la potenza consumata, e con un comparatore paragonarla a 500, ed eventualmente attivare il circuito di chiusura del relay.
+
+////
+
+Voltaggio tra -3 e 40.( 44 valori diversi
