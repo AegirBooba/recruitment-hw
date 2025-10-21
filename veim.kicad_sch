@@ -2,10 +2,10 @@
 	(version 20250114)
 	(generator "eeschema")
 	(generator_version "9.0")
-	(uuid "c62dd5fa-6717-4bd2-b986-a842e23c49fc")
+	(uuid "d6ea64d9-b8b8-4330-89b0-5fcd6d63f6ec")
 	(paper "A4")
 	(lib_symbols
-		(symbol "Sensor_Current:ACS781xLRTR-050U"
+		(symbol "Sensor_Current:ACS781xLRTR-050B"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -18,7 +18,7 @@
 					(justify left)
 				)
 			)
-			(property "Value" "ACS781xLRTR-050U"
+			(property "Value" "ACS781xLRTR-050B"
 				(at 2.54 6.35 0)
 				(effects
 					(font
@@ -45,7 +45,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "50A Unidirectional Hall-Effect Current Sensor, +3.3V supply, 39.6mV/A, PSOF-7"
+			(property "Description" "±50A Bidirectional Hall-Effect Current Sensor, +3.3V supply, 26.4mV/A, PSOF-7"
 				(at 0 0 0)
 				(effects
 					(font
@@ -72,7 +72,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "ACS781xLRTR-050U_0_1"
+			(symbol "ACS781xLRTR-050B_0_1"
 				(rectangle
 					(start -7.62 5.08)
 					(end 7.62 -5.08)
@@ -145,7 +145,7 @@
 					)
 				)
 			)
-			(symbol "ACS781xLRTR-050U_1_1"
+			(symbol "ACS781xLRTR-050B_1_1"
 				(pin passive line
 					(at -10.16 2.54 0)
 					(length 2.54)
@@ -464,7 +464,7 @@
 		(uuid "d7ba8ae9-4ec0-467e-a00f-4f87e370ae7d")
 	)
 	(symbol
-		(lib_id "Sensor_Current:ACS781xLRTR-050U")
+		(lib_id "Sensor_Current:ACS781xLRTR-050B")
 		(at 139.7 76.2 90)
 		(mirror x)
 		(unit 1)
@@ -472,7 +472,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "43ed11ca-6ad2-435f-9425-83ccd18ba666")
+		(uuid "cede0b84-406b-4611-9138-fde60ec29926")
 		(property "Reference" "U2"
 			(at 123.19 69.7798 90)
 			(effects
@@ -481,7 +481,7 @@
 				)
 			)
 		)
-		(property "Value" "ACS781xLRTR-050U"
+		(property "Value" "ACS781xLRTR-050B"
 			(at 123.19 72.3198 90)
 			(effects
 				(font
@@ -507,7 +507,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "50A Unidirectional Hall-Effect Current Sensor, +3.3V supply, 39.6mV/A, PSOF-7"
+		(property "Description" "±50A Bidirectional Hall-Effect Current Sensor, +3.3V supply, 26.4mV/A, PSOF-7"
 			(at 139.7 76.2 0)
 			(effects
 				(font
@@ -516,26 +516,26 @@
 				(hide yes)
 			)
 		)
-		(pin "1"
-			(uuid "8237db7d-64f4-48d7-9b9a-50554b19e7e6")
-		)
-		(pin "5"
-			(uuid "06925c61-86df-4fba-929a-5f737fbf19e7")
-		)
-		(pin "6"
-			(uuid "9340ca6a-ea14-44f8-9cc4-f4ecfaf5ab49")
+		(pin "4"
+			(uuid "5998dbf7-22c3-44ff-9da9-fefebacdf70e")
 		)
 		(pin "2"
-			(uuid "abea1e7f-966a-4752-b30f-a5ff87b47494")
-		)
-		(pin "4"
-			(uuid "bce40d30-d888-418e-bec2-e5e50ecaaeed")
+			(uuid "991d0ece-f713-44bc-92e4-7e3288273ac3")
 		)
 		(pin "7"
-			(uuid "29f4fe10-9797-4407-81d2-c0cbb8d5fd1e")
+			(uuid "777d0ec7-1580-4360-ba03-4e881ea247d4")
+		)
+		(pin "6"
+			(uuid "fec7952c-0c88-4c73-8ef6-3415d61923b8")
+		)
+		(pin "1"
+			(uuid "ca91ce74-9893-4fea-bff1-3e3cdfd92813")
+		)
+		(pin "5"
+			(uuid "b16bb262-f4c9-483e-84c9-046f1f02bd88")
 		)
 		(pin "3"
-			(uuid "e979d88d-ff2c-47a1-86ea-686fbcc6cd07")
+			(uuid "7006f8c3-221f-4592-bc58-ebf2a8ea6e3d")
 		)
 		(instances
 			(project ""

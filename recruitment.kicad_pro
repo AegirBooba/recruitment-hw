@@ -666,6 +666,14 @@
     [
       "8c3f6a2d-4423-48df-8f69-0feefaa5f747",
       "Voltage and Current measuring"
+    ],
+    [
+      "e1c3aa12-45ff-4be4-8043-5eb9e864adfe",
+      "Multiplier"
+    ],
+    [
+      "99c0648b-9ff3-4ff9-be70-cb74ae70b46a",
+      "555 One Shot"
     ]
   ],
   "text_variables": {}
