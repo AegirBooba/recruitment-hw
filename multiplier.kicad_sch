@@ -952,7 +952,7 @@
 		)
 		(uuid "801e6b29-79b9-480c-8425-7696b00e1561")
 	)
-	(hierarchical_label "Vs"
+	(hierarchical_label "12V"
 		(shape input)
 		(at 88.9 73.66 180)
 		(effects

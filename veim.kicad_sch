@@ -2,7 +2,7 @@
 	(version 20250114)
 	(generator "eeschema")
 	(generator_version "9.0")
-	(uuid "d6ea64d9-b8b8-4330-89b0-5fcd6d63f6ec")
+	(uuid "a06d37f0-81fc-4d7a-aa06-d34200b52211")
 	(paper "A4")
 	(lib_symbols
 		(symbol "Sensor_Current:ACS781xLRTR-050B"
