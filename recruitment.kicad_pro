@@ -673,7 +673,11 @@
     ],
     [
       "99c0648b-9ff3-4ff9-be70-cb74ae70b46a",
-      "555 One Shot"
+      "555 One Shot Open"
+    ],
+    [
+      "daa37310-17dc-447e-86b6-d7c579994776",
+      "555 One Shot Close"
     ]
   ],
   "text_variables": {}
