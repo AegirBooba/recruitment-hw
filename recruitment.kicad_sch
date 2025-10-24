@@ -926,6 +926,12 @@
 		(uuid "3f4d3341-e3eb-4676-900f-7d7acb67f01f")
 	)
 	(junction
+		(at 215.9 40.64)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5194131e-ee87-4c26-b2de-25dcd503a3d7")
+	)
+	(junction
 		(at 95.25 93.98)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -944,6 +950,12 @@
 		(uuid "87d7c028-22bd-452b-aceb-2c0e287c7bae")
 	)
 	(junction
+		(at 215.9 119.38)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a85a3a15-e756-4ab8-bf54-16cae19135bd")
+	)
+	(junction
 		(at 151.13 106.68)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -958,6 +970,16 @@
 			(type default)
 		)
 		(uuid "01698a88-bef6-4459-bd63-445d3d48134e")
+	)
+	(wire
+		(pts
+			(xy 215.9 40.64) (xy 228.6 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0eac463e-6972-44d7-981d-8fccfa4002be")
 	)
 	(wire
 		(pts
@@ -1061,7 +1083,7 @@
 	)
 	(wire
 		(pts
-			(xy 165.1 119.38) (xy 228.6 119.38)
+			(xy 165.1 119.38) (xy 215.9 119.38)
 		)
 		(stroke
 			(width 0)
@@ -1078,6 +1100,16 @@
 			(type default)
 		)
 		(uuid "55f55dcc-27a4-411d-86b1-aa455f775de9")
+	)
+	(wire
+		(pts
+			(xy 215.9 119.38) (xy 228.6 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "59d34295-2958-4676-9d84-87274eb2bc29")
 	)
 	(wire
 		(pts
@@ -1151,6 +1183,16 @@
 	)
 	(wire
 		(pts
+			(xy 199.39 57.15) (xy 199.39 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7d78ed50-a26c-467c-8cc7-67495277e164")
+	)
+	(wire
+		(pts
 			(xy 165.1 106.68) (xy 165.1 119.38)
 		)
 		(stroke
@@ -1191,6 +1233,16 @@
 	)
 	(wire
 		(pts
+			(xy 215.9 63.5) (xy 215.9 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a1cd0685-f7d1-4587-a249-e9d5c7575747")
+	)
+	(wire
+		(pts
 			(xy 95.25 106.68) (xy 95.25 97.79)
 		)
 		(stroke
@@ -1198,6 +1250,26 @@
 			(type default)
 		)
 		(uuid "a4e15cd5-20d5-484f-9d9e-5e87271229ee")
+	)
+	(wire
+		(pts
+			(xy 199.39 97.79) (xy 123.19 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "becb3ab6-36a3-441e-a990-0b5a3ad695c5")
+	)
+	(wire
+		(pts
+			(xy 215.9 40.64) (xy 215.9 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c4d73c1f-baca-4416-894c-4fc49182c085")
 	)
 	(wire
 		(pts
@@ -1271,6 +1343,16 @@
 	)
 	(wire
 		(pts
+			(xy 203.2 57.15) (xy 199.39 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ed31161e-49cb-4829-939f-0a60d268068d")
+	)
+	(wire
+		(pts
 			(xy 97.79 62.23) (xy 95.25 62.23)
 		)
 		(stroke
@@ -1281,7 +1363,7 @@
 	)
 	(wire
 		(pts
-			(xy 179.07 40.64) (xy 228.6 40.64)
+			(xy 179.07 40.64) (xy 215.9 40.64)
 		)
 		(stroke
 			(width 0)
@@ -1744,6 +1826,77 @@
 				(path "/bdc7face-9f7c-4701-80bb-4cc144448db1"
 					(reference "R2")
 					(unit 1)
+				)
+			)
+		)
+	)
+	(sheet
+		(at 203.2 50.8)
+		(size 25.4 12.7)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "51cf1de3-fe76-4206-aadc-7b80a4d89f16")
+		(property "Sheetname" "inputVoltage"
+			(at 229.87 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "inputvoltage.kicad_sch"
+			(at 230.124 61.722 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "GND" output
+			(at 215.9 63.5 270)
+			(uuid "fb6d20e8-46e1-403c-8bc5-1a2ad6d8ce75")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "Vin" input
+			(at 215.9 50.8 90)
+			(uuid "4763f6f9-c4c8-4261-94c0-32e22acc92d7")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "Vout" output
+			(at 203.2 57.15 180)
+			(uuid "d31315a5-7121-4159-9ff1-4250837b4910")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "recruitment"
+				(path "/bdc7face-9f7c-4701-80bb-4cc144448db1"
+					(page "7")
 				)
 			)
 		)

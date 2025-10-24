@@ -678,6 +678,10 @@
     [
       "daa37310-17dc-447e-86b6-d7c579994776",
       "555 One Shot Close"
+    ],
+    [
+      "51cf1de3-fe76-4206-aadc-7b80a4d89f16",
+      "inputVoltage"
     ]
   ],
   "text_variables": {}
