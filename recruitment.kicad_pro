@@ -669,7 +669,7 @@
     ],
     [
       "e1c3aa12-45ff-4be4-8043-5eb9e864adfe",
-      "Multiplier"
+      "Multiplier and Comparator"
     ],
     [
       "99c0648b-9ff3-4ff9-be70-cb74ae70b46a",
@@ -682,6 +682,10 @@
     [
       "51cf1de3-fe76-4206-aadc-7b80a4d89f16",
       "inputVoltage"
+    ],
+    [
+      "07eeeb5b-4907-491e-a7f3-6c46849fe190",
+      "INcurrent correction"
     ]
   ],
   "text_variables": {}
