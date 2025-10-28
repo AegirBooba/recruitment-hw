@@ -559,7 +559,7 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "Si attiva una sola volta una volta che appare tensione sul\nMonitor Supply\n\n//Aggiungere valore resistenze e condensatori"
+	(text "Si attiva una sola volta una volta che appare tensione ai capi"
 		(exclude_from_sim no)
 		(at 161.544 67.056 0)
 		(effects
@@ -1027,7 +1027,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
 			(at 125.476 70.104 90)
 			(effects
 				(font
@@ -1101,7 +1101,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 164.1348 91.44 0)
 			(effects
 				(font

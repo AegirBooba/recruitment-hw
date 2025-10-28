@@ -1069,7 +1069,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Inductor_SMD:L_12x12mm_H8mm"
 			(at 149.86 78.74 0)
 			(effects
 				(font
