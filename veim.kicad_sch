@@ -276,6 +276,17 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "Sensore alimentato da 3.3 Volt ottenuti tramite partitore da\nMinotr Supply. Vout è il valore di tensione che indica quanta corrente passa,\nHa 1.65V in quiescenza, più 26.4 mV per ogni ampere percepito.\nL'offset è poi rimosso altrove per non sfasare i conti. \nIp+ e Ip- sono ingresso e uscita del cavo da misurare."
+		(exclude_from_sim no)
+		(at 162.306 79.248 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "cf7e868b-31be-4f10-91dd-9a66c793910d")
+	)
 	(junction
 		(at 152.4 78.74)
 		(diameter 0)

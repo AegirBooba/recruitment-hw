@@ -559,17 +559,22 @@
 			(embedded_fonts no)
 		)
 	)
-	(junction
-		(at 129.54 101.6)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "3eb80d16-b13e-458d-a734-0a4eb5285aab")
+	(text "Si attiva una sola volta una volta che appare tensione sul\nMonitor Supply\n\n//Aggiungere valore resistenze e condensatori"
+		(exclude_from_sim no)
+		(at 161.544 67.056 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "02acefa6-b2c3-450b-8135-e47426a2ddca")
 	)
 	(junction
-		(at 129.54 88.9)
+		(at 124.46 88.9)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "706ca14d-9c1b-4411-8c90-a15e88093769")
+		(uuid "818b81fd-84f0-45ba-927d-dab728c07827")
 	)
 	(junction
 		(at 165.1 88.9)
@@ -589,6 +594,12 @@
 		(color 0 0 0 0)
 		(uuid "cfe7bee2-7274-418d-b37b-38a830907980")
 	)
+	(junction
+		(at 124.46 83.82)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fc87e63f-9ab2-4e9f-b78f-3862700183aa")
+	)
 	(wire
 		(pts
 			(xy 148.59 105.41) (xy 148.59 101.6)
@@ -601,7 +612,7 @@
 	)
 	(wire
 		(pts
-			(xy 129.54 88.9) (xy 129.54 91.44)
+			(xy 124.46 88.9) (xy 124.46 91.44)
 		)
 		(stroke
 			(width 0)
@@ -621,17 +632,7 @@
 	)
 	(wire
 		(pts
-			(xy 124.46 101.6) (xy 129.54 101.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "377caac5-9f59-444e-8c6d-a0620c02621b")
-	)
-	(wire
-		(pts
-			(xy 129.54 99.06) (xy 129.54 101.6)
+			(xy 124.46 99.06) (xy 124.46 101.6)
 		)
 		(stroke
 			(width 0)
@@ -681,16 +682,6 @@
 	)
 	(wire
 		(pts
-			(xy 129.54 83.82) (xy 129.54 88.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5740cccc-49fa-4472-b3ea-944403629a3e")
-	)
-	(wire
-		(pts
 			(xy 165.1 99.06) (xy 165.1 101.6)
 		)
 		(stroke
@@ -698,6 +689,16 @@
 			(type default)
 		)
 		(uuid "6f716aa9-7f4b-4c05-b8b7-9669b3d0c404")
+	)
+	(wire
+		(pts
+			(xy 124.46 101.6) (xy 148.59 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "71da45bf-9e82-4133-9e9c-adb12521590b")
 	)
 	(wire
 		(pts
@@ -711,6 +712,16 @@
 	)
 	(wire
 		(pts
+			(xy 124.46 83.82) (xy 124.46 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8caaa25d-523e-4d99-96ee-f32de48d67f2")
+	)
+	(wire
+		(pts
 			(xy 124.46 63.5) (xy 148.59 63.5)
 		)
 		(stroke
@@ -721,7 +732,7 @@
 	)
 	(wire
 		(pts
-			(xy 124.46 73.66) (xy 124.46 101.6)
+			(xy 124.46 73.66) (xy 124.46 83.82)
 		)
 		(stroke
 			(width 0)
@@ -731,27 +742,17 @@
 	)
 	(wire
 		(pts
-			(xy 129.54 88.9) (xy 135.89 88.9)
+			(xy 124.46 88.9) (xy 135.89 88.9)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "ba00ec74-210d-40f1-b679-e43b6a2028ce")
+		(uuid "c418b3fc-5d73-4c19-b16a-018a190e66cb")
 	)
 	(wire
 		(pts
-			(xy 129.54 101.6) (xy 148.59 101.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c2bc0acf-8906-4b4b-9faa-c3f5071e34f7")
-	)
-	(wire
-		(pts
-			(xy 135.89 83.82) (xy 129.54 83.82)
+			(xy 135.89 83.82) (xy 124.46 83.82)
 		)
 		(stroke
 			(width 0)
@@ -810,17 +811,6 @@
 		)
 		(uuid "2bd46410-4908-45aa-b8bb-c17e7485741b")
 	)
-	(hierarchical_label "12V"
-		(shape input)
-		(at 114.3 63.5 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "316b02be-825a-4d49-8cc2-f04ba9a6f074")
-	)
 	(hierarchical_label "GND"
 		(shape output)
 		(at 148.59 105.41 270)
@@ -832,6 +822,17 @@
 		)
 		(uuid "aba2fd7c-6168-4d82-916e-610945eb949a")
 	)
+	(hierarchical_label "Vin"
+		(shape input)
+		(at 114.3 63.5 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "d6905dda-4e01-474b-b032-2067c446ea37")
+	)
 	(symbol
 		(lib_id "Timer:NE555D")
 		(at 148.59 83.82 0)
@@ -842,7 +843,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "59edbfe8-fc0a-43c2-953d-973ec88a89e6")
-		(property "Reference" "U?"
+		(property "Reference" "U1"
 			(at 150.7333 71.12 0)
 			(effects
 				(font
@@ -914,7 +915,7 @@
 		(instances
 			(project "recruitment"
 				(path "/bdc7face-9f7c-4701-80bb-4cc144448db1/99c0648b-9ff3-4ff9-be70-cb74ae70b46a"
-					(reference "U?")
+					(reference "U1")
 					(unit 1)
 				)
 				(path "/bdc7face-9f7c-4701-80bb-4cc144448db1/daa37310-17dc-447e-86b6-d7c579994776"
@@ -926,7 +927,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 129.54 95.25 180)
+		(at 124.46 95.25 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -934,8 +935,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5f8ab060-bab9-4a97-a46c-fd2d1e7c7d5b")
-		(property "Reference" "C?"
-			(at 133.35 93.9799 0)
+		(property "Reference" "C3"
+			(at 128.27 93.9799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -943,8 +944,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" "C"
-			(at 133.35 96.5199 0)
+		(property "Value" "100 uF"
+			(at 128.27 96.5199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -952,8 +953,8 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
-			(at 128.5748 91.44 0)
+		(property "Footprint" "Capacitor_THT:C_Radial_D8.0mm_H7.0mm_P3.50mm"
+			(at 123.4948 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -962,7 +963,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 129.54 95.25 0)
+			(at 124.46 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -971,7 +972,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 129.54 95.25 0)
+			(at 124.46 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -988,7 +989,7 @@
 		(instances
 			(project "recruitment"
 				(path "/bdc7face-9f7c-4701-80bb-4cc144448db1/99c0648b-9ff3-4ff9-be70-cb74ae70b46a"
-					(reference "C?")
+					(reference "C3")
 					(unit 1)
 				)
 				(path "/bdc7face-9f7c-4701-80bb-4cc144448db1/daa37310-17dc-447e-86b6-d7c579994776"
@@ -1008,7 +1009,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a3f54971-fbbd-4992-b11d-37c868c38384")
-		(property "Reference" "R?"
+		(property "Reference" "R10"
 			(at 127 68.5799 0)
 			(effects
 				(font
@@ -1017,7 +1018,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R_US"
+		(property "Value" "100 kOhm"
 			(at 127 71.1199 0)
 			(effects
 				(font
@@ -1062,7 +1063,7 @@
 		(instances
 			(project "recruitment"
 				(path "/bdc7face-9f7c-4701-80bb-4cc144448db1/99c0648b-9ff3-4ff9-be70-cb74ae70b46a"
-					(reference "R?")
+					(reference "R10")
 					(unit 1)
 				)
 				(path "/bdc7face-9f7c-4701-80bb-4cc144448db1/daa37310-17dc-447e-86b6-d7c579994776"
@@ -1091,7 +1092,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "10 nF"
 			(at 168.91 96.5199 0)
 			(effects
 				(font

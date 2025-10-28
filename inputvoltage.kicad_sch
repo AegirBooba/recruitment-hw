@@ -179,6 +179,16 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "Il partitore devia 1/6 di tensione perché sia usato per i calcoli.\nVps = 6 Vout\nIl valore usato nei calcoli passa da [24;48] a [3;6]\n\n///\n25 = 125/5 (1 + 5 = 6 --> La tensione è divisa in 6 parti,\n5 delle quali cadono su R5, l'ultima va in Vout\n\n///\nLa linea va poi a GND in modo da tenere questo componente in \nparallelo con il Load"
+		(exclude_from_sim no)
+		(at 96.266 69.85 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "45c46408-a3e2-42e3-bd12-1beb550a8696")
+	)
 	(junction
 		(at 139.7 86.36)
 		(diameter 0)

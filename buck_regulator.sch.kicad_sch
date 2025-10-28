@@ -536,6 +536,17 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "Il Buck Converter regola la tensione in ingresso stabilizzandola.\nNon essendo chiarissimo dai requisiti, si assume che\nil valore abbia Expected Value circa in mezzo, per cui\nsi immagina che sia sufficiente a sostenere almeno 12V. \nQuando l'ingresso li supera, è immagazzinato nell'induttore L1,\ned eventualmente scaricato a terra. Se inferiore, usa quanto\nimmagazzinato per sostenere il calo. I valori usati sono\nquanto consigliati nella scheda. (Meno un condensatore polarizzato)\nI condensatori aiutano nel rendere più fluidi carica e scarica."
+		(exclude_from_sim no)
+		(at 187.198 86.36 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "142b566e-24cf-4c32-91aa-29db23752544")
+	)
 	(junction
 		(at 143.51 107.95)
 		(diameter 0)
@@ -837,7 +848,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 160.9852 95.25 0)
 			(effects
 				(font
@@ -887,25 +898,24 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "40a19a0a-32ed-4b02-854d-cef1c75b11df")
 		(property "Reference" "C1"
-			(at 119.38 91.44 90)
+			(at 113.792 88.392 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "C"
-			(at 116.84 91.44 90)
+		(property "Value" "550 microF"
+			(at 102.87 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric_Pad0.64x0.40mm_HandSolder"
 			(at 112.7252 95.25 0)
 			(effects
 				(font
@@ -957,7 +967,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4b145509-84fd-4ea5-aed2-031a2df7ff6f")
-		(property "Reference" "U1"
+		(property "Reference" "Ubr1"
 			(at 128.27 71.12 0)
 			(effects
 				(font
@@ -1027,7 +1037,7 @@
 		(instances
 			(project "recruitment"
 				(path "/bdc7face-9f7c-4701-80bb-4cc144448db1/bc78e43e-7c72-4a26-8058-1235020e2308"
-					(reference "U1")
+					(reference "Ubr1")
 					(unit 1)
 				)
 			)

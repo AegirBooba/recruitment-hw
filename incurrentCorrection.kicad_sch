@@ -2,7 +2,7 @@
 	(version 20250114)
 	(generator "eeschema")
 	(generator_version "9.0")
-	(uuid "67677d01-b129-47f0-824a-d835a4a5bdf9")
+	(uuid "ebdce9d5-fa36-49c6-be07-bc371ee7de16")
 	(paper "A4")
 	(lib_symbols
 		(symbol "Amplifier_Operational:LM358_DFN"
@@ -750,6 +750,17 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "Vout = (1 + r2/r1)*Vin\n\nr2/r1 = 2\n\nVout = 3*Vin\n\nSi rimuove l'offset di 1.65V (Amplificato a 4.95V) con 2 Diodi\nLa cui caduta totale dopo il breaking è 4.7 + 0.2 = 4.9\nSi ignorano i 0.05 Volt perché abbastanza insignificanti (E% = 1)"
+		(exclude_from_sim no)
+		(at 157.48 86.868 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "67d91624-d36a-4997-be0c-db7e14d6acc0")
+	)
 	(junction
 		(at 152.4 68.58)
 		(diameter 0)
@@ -998,7 +1009,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:Nexperia_DSN1608-2_1.6x0.8mm"
 			(at 181.61 68.58 0)
 			(effects
 				(font
@@ -1184,31 +1195,31 @@
 			)
 		)
 		(pin "5"
-			(uuid "2b9a04bf-1f2c-4da5-b2eb-5a963af61f58")
+			(uuid "2b9a04bf-1f2c-4da5-b2eb-5a963af61f59")
 		)
 		(pin "1"
-			(uuid "f7970cfe-8902-45e4-801f-7bb69f7b7cc4")
+			(uuid "f7970cfe-8902-45e4-801f-7bb69f7b7cc5")
 		)
 		(pin "3"
-			(uuid "20cf54f1-2179-4a6d-9d3c-a372510a3397")
+			(uuid "20cf54f1-2179-4a6d-9d3c-a372510a3398")
 		)
 		(pin "2"
-			(uuid "f327237c-d862-4824-8011-4b33a5786207")
+			(uuid "f327237c-d862-4824-8011-4b33a5786208")
 		)
 		(pin "7"
-			(uuid "8bfb0a7e-399d-469b-9fa6-bb7d0776cb05")
+			(uuid "8bfb0a7e-399d-469b-9fa6-bb7d0776cb06")
 		)
 		(pin "9"
-			(uuid "722bb8e0-1a7c-4236-bb7b-fb85b198ec45")
+			(uuid "722bb8e0-1a7c-4236-bb7b-fb85b198ec46")
 		)
 		(pin "6"
-			(uuid "fafc4370-962f-4947-8b55-18b97cb2162c")
+			(uuid "fafc4370-962f-4947-8b55-18b97cb2162d")
 		)
 		(pin "8"
-			(uuid "f3a6b651-7315-4f59-a4f5-6a59d2af85ff")
+			(uuid "f3a6b651-7315-4f59-a4f5-6a59d2af8600")
 		)
 		(pin "4"
-			(uuid "9300ec64-5808-46ee-997f-922ae28039f3")
+			(uuid "9300ec64-5808-46ee-997f-922ae28039f4")
 		)
 		(instances
 			(project ""
@@ -1312,7 +1323,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
 			(at 108.204 65.024 90)
 			(effects
 				(font
@@ -1379,7 +1390,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
 			(at 123.444 56.134 90)
 			(effects
 				(font
